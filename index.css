@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: gotham , sans-serif;
+    background-color: #ff6b00;
+    font-size: 30px;
+}
+
+nav {
+    background-color: teal;
+    padding: 20px;
+    text-align: center;
+    font-size: 15px;
+    border-block: 1px solid beige;
+    border-radius: 2%;
+}
+
+nav a {
+    color: peachpuff;
+    text-decoration: none;
+    padding: 15px;
+
+
+}
+
+nav a:hover {
+    background-color: #e64a00;
+
+}
+
+#landing {
+    background-color: teal;
+    padding: 50px;
+    color: peachpuff;
+    text-align: center;
+    font-family: gotham;
+    margin-top: 50px;
+    margin-bottom: 5px;
+    border-block: 1px solid beige;
+    
+}
+
+#movies {
+    padding: 50px;
+    background-color: teal;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-block: 1px solid #ff6b00;
+    color: peachpuff ;
+    
+}
+a:link{
+    background-color: none;
+    text-decoration: none;
+    font-family: gotham;
+    color: peachpuff;
+
+}
+a:hover{
+    background-color: #e64a00;
+    box-sizing: border-box;
+    border-block: 1px solid peachpuff;
+    border-radius: 10%;
+
+
+}
+.card {
+    display: inline-block;
+    width: 300px;
+    height: 350px;
+    text-align: center;
+    padding: 15px;
+    margin: 15px;
+    color: peachpuff;
+    box-sizing: border-box;
+    
+}
+
+
+
+
+footer {
+    background-color: darkcyan;
+    text-align: center;
+    padding: 20px;
+    position: bottom;
+    bottom: 0;
+    width: 100%;
+    color: peachpuff;
+    margin: 15px;
+    font-family: gotham;
+    font-size: 12px;
+    padding: 10px;
+    border-block: 2px solid beige;
+}
+
